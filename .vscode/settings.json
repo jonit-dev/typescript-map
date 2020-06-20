@@ -1,0 +1,5 @@
+{
+  "workbench.colorTheme": "Activate UMBRA protocol",
+  "typescript.tsdk": "node_modules/typescript/lib",
+  "editor.minimap.size": "fit"
+}
