@@ -1,14 +1,11 @@
 import faker from 'faker';
 
-import { IMappable } from './../types/Map.types';
+import { ILocation, IMappable } from './../types/Map.types';
 
 export class Company implements IMappable {
   public companyName: string;
   public catchPhrase: string;
-  public location: {
-    lat: number;
-    lng: number;
-  };
+  public location: ILocation;
   public color: string;
 
   constructor() {
